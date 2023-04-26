@@ -1,0 +1,199 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #fff8f2;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: darkslategrey;
+
+    @media screen and (min-width: 2560px) {
+        font-size: 50px;    
+    }
+}
+
+
+.search {
+    width: 100%;
+}
+
+input {
+    padding: 15px 10px;
+    outline: none;
+    width: 400px;
+
+    @media screen and (min-width: 2560px) {
+        width: 700px;
+        height: 50px;
+        font-size: 25px;    
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+.to-do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #ffe4c4;
+    width: 50%;
+    color: darkslategray;
+    margin-top: 20px;
+
+    @media screen and (min-width: 2560px) {
+        height: 500px
+    }
+
+    @media screen and (max-width: 1024px) {
+        width: 70%;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 80%;   
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 100% ;    
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 100%;
+    }
+}
+
+
+li {
+    list-style: none;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+li p {
+    width: 100%;
+}
+
+.btn {
+    margin-left: auto;
+    border: none;
+    background-color: #e31746;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1.2em;
+}
+
+
+.btn img {
+    width: 15px;
+}
+
+ul {
+    padding: unset;
+    text-align:-webkit-center;
+}
+
+ul li {
+    margin: 5px 45px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.btn-edit img{
+    width: 15px;
+}
+
+.btn-edit {
+    margin-left: auto;
+    border: none;
+    background-color: #007aff;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1.2em;
+}
+
+.btn-edit:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+
+.agregar button {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: peru;
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+    outline: none;
+
+    @media screen and (min-width: 2560px) {
+        padding: 20px;
+        width: 130px;
+        margin: 20px;   
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: 768px) {
+        margin-top: 15px;
+    }
+}
+
+.agregar button:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+}
+
+
+.empty {
+    color: darkslategrey;
+}
+
+.input-edit {
+    height: 0px;
+}
+
+.btn-guardar {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    background-color: teal;
+    outline: none;   
+    font-size: 17px;
+}
+
+.btn-guardar:hover {
+    background-color: transparent;
+    transition: 0.5s;
+    color: teal;
+    border: 2px solid teal;
+}
+
+.contador p {
+    @media screen and (min-width: 2560px) {
+        font-size: 25px;    
+    }
+}
+
